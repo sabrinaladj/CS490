@@ -1,0 +1,115 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Krona One', sans-serif;;
+}
+
+body{
+  background: rgb(236, 234, 234);
+}
+
+.wrapper{
+  display: flex;
+  max-width: 660px;
+  width: 200%;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.wrapper .left,
+.wrapper .right{
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+}
+
+.wrapper .left{
+  background:rgb(81, 112, 95);
+}
+
+.wrapper .left h1{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+  font-size: 50px;
+}
+.wrapper .left h2{
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+.wrapper .left img{
+  display: block;
+  width: 100px;
+  margin: 35px auto 0;
+  padding: 10px;
+}
+
+.wrapper .right{
+  background: white;
+}
+
+.wrapper .right .tabs ul{
+  text-align: center;
+}
+
+.wrapper .right .tabs ul li{
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 20px;
+  font-size: 14px;
+  color: rgb(81, 112, 95);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.wrapper .right .tabs ul li.active{
+  border-bottom: 2px solidrgb(81, 112, 95);
+}
+
+.wrapper .right .register,
+.wrapper .right .login{
+  margin-top: 40px;
+}
+
+.wrapper .right .input_field{
+  margin-bottom: 15px;
+}
+
+.wrapper .right .input_field .input{
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  font-size: 12px;
+  background: whitesmoke;
+}
+
+.wrapper .right .btn{
+  margin-top: 20px;
+  background: rgb(81, 112, 95);
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.wrapper .right .btn a{
+  color: white;
+  display: block;
+  font-size: 14px;
+}
