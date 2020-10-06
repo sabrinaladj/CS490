@@ -1,0 +1,32 @@
+.announcements{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+}
+
+.announcements_header {
+   padding-left: 50px;
+   padding: 10px;
+}
+
+.announcements_header > form > button{
+    display: none;
+    
+}
+
+.announcement_input {
+    outline-width: 0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 90px;
+    background-color: rgb(149, 177, 162);
+    width: 300px;
+    height:100px;
+   
+}
